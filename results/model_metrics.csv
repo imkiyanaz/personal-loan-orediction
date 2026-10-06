@@ -1,0 +1,10 @@
+model,metric,value,notes
+Logistic Regression,Test accuracy,0.9527,"Unscaled, liblinear, 70/30 split"
+Logistic Regression,5-fold CV mean accuracy,0.9512,Scaled features
+Gaussian Naive Bayes,Test accuracy,0.8860,70/30 split
+KNN,Base test accuracy,0.9300,"k=3, unscaled"
+KNN,5-fold CV mean accuracy,0.9583,"Scaled features, best k=3"
+KNN,Tuned test accuracy,0.9673,"Scaled features, best k=3"
+Logistic Regression,Log loss,0.1246,Scaled comparison
+Gaussian Naive Bayes,Log loss,0.4771,Scaled comparison
+KNN,Log loss,0.4736,"Scaled comparison, k=3"
